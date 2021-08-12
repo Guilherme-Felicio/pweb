@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.header{
+    width: 25vw;
+    display: flex;
+    
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
