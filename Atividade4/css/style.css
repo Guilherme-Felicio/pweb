@@ -1,0 +1,87 @@
+*{  
+    text-decoration: none;
+    color:black;
+    margin: 0;
+    line-height: 1.5;
+}
+
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4vh 12vw;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    width: 40vh;
+    justify-content: space-between;
+    padding: 0;
+}
+
+header li{
+    display: inline-block;
+}
+
+.conheca{
+    margin: 11.5vh 12vw 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.conheca p{
+    text-shadow:2px 2px 2px rgba(173,173,173,0.38);  
+}
+
+.conheca h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow:2px 2px 2px rgba(173,173,173,0.38);  
+}
+
+.naruto{
+    margin-right: 15px;
+    display: flex;
+}
+
+
+.conheca .foto {
+    margin-left: 15px;
+    box-shadow:2px 2px 8px 2px rgba(173,173,173,0.38);  
+}
+
+ .conheca img    {
+    max-height: 30vh;
+    width: auto;
+    margin: 0;
+}
+
+.conheca .button{
+    background:orange;
+    border: none;
+    padding: 2vh 3vw;
+    font-weight: bold;
+    box-shadow:2px 2px 8px 2px rgba(173,173,173,0.38);
+    margin: 8.8vh auto 0vh; 
+}
+
+.conheca .button:hover{
+    background-color: peru;
+    cursor: pointer;
+}
+
+.jutsus{
+    background-color: black;
+    display: flex;
+}
+
+.jutsus p{
+    color: orange;
+    margin: 0 12vw  ;
+}
