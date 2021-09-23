@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <p>Questionário</p>
+        <p>Olá, responda a pesquisa abaixo sobre o filme assistido</p>
+    </div>
+
+    <form id="formulario">
+        <label for="idade">Digite a sua idade</label><input type="text" name="idade" id="idade"><br>
+        <label for="sexo">Selecione seu sexo</label>
+        <select name="sexo" id="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select><br>
+        <label for="nota">Digite uma nota de 1 a 5</label><input type="text" name="nota" id="nota"><br>
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <button style="display: none;" id="checarResultados">Checar resultado</button>
+
+
+   <script src="style.js"></script>
+</body>
+</html>
