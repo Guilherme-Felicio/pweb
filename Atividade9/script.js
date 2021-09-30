@@ -26,10 +26,12 @@ form.addEventListener('submit', function(e){
     arrNum.push(parseFloat(numero2.value));
     arrNum.push(parseFloat(numero3.value));
 
-    arrNum.sort();
-    alert('array ordenado: ' + arrNum);
-    arrNum.reverse();
-    alert('array invertido: ' + arrNum);
+    let arr1 = arrNum.sort((a,b) =>{
+        return a - b;
+    });
+    alert('array ordenado: ' + arr1);
+    let arr = arrNum.reverse();
+    alert('array invertido: ' + arr);
 
     
     console.log(arr);
