@@ -1,12 +1,21 @@
+* {
+    font-family: 'Domine', serif;
+    color:#111;
+}
+
 body{
     background: url(../img/bg.webp) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-h1, p{
-    font-family: 'Domine', serif;
-    color:#111;
+h1{
+    font-size: 36px;
+
+}
+
+p{
+    font-size: 24px;
 }
 
 nav{
@@ -35,21 +44,71 @@ nav{
     font-weight: bold;
     font-size: 24px;
 }
-.habilidades{
+
+.habilidades:last-child{
+    margin-bottom: 40px ;
+}
+
+.habilidade{
     display: flex;
+    margin-bottom: 25px;
+}
+
+.habilidade img{
+    margin-left: 3px;
 }
 
 .grafico{
-    padding: 8px 4.2vw;
-    background: #E44F26;
+    padding: 8px 1vw 12px;
     border-radius: 4px;
+    margin-left: .5rem;
+}
+
+.html5{
+    background: #E44F26;
+}
+
+.css3{
+    background: #35A8DB;
+}
+
+.js{
+    background: #F5DE19;
+}
+
+.wordpress{
+    background: #01579B;
+}
+
+.docker{
+    background: #1D7D93;
+}
+
+.bootstrap{
+    background: #563D7C;
 }
 
 
+@media screen and (max-width: 576px) {
+    h1{
+        font-size: 24px;
+    }
 
+    p, a{
+        font-size: 18px;
+    }
+    ul>li>.habilidades{
+        padding-left: 0;
+    }
+  }
 
+  
+@media screen and (max-width: 470px) {
+    h1{
+        font-size: 18px;
+    }
 
-
-
-
-
+    p, a{
+        font-size: 14px;
+    }
+}
