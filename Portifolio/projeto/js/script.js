@@ -77,7 +77,7 @@ window.addEventListener('scroll', (e)=>{
             graficos[5].style.transition = "2s";
         }
     } else{
-        if(window.pageYOffset > 930){
+        if(window.pageYOffset > 300){
             graficos[0].style.paddingRight = "60%";
             graficos[0].style.transition = "1.5s";
             graficos[1].style.paddingRight = "55%";

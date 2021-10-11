@@ -50,6 +50,10 @@ nav{
     font-size: 24px;
 }
 
+.nivel p{
+    text-indent: 0;
+}
+
 .habilidades:last-child{
     margin-bottom: 40px ;
 }
@@ -95,18 +99,29 @@ nav{
 }
 
 @media screen and (max-width: 991px) {
-    ul.habilidades{
-        padding-left: 0;
-    }
-  }
-
-@media screen and (max-width: 576px) {
+   
     h1{
         font-size: 24px;
     }
 
     p, a{
         font-size: 18px;
+    }
+
+    ul.habilidades{
+        padding-left: 0;
+    }
+    li img{
+        max-height: 40px;
+    }
+
+    
+  }
+
+@media screen and (max-width: 576px) {
+   
+    li img{
+        max-height: 35px;
     }
   }
 
@@ -119,19 +134,30 @@ nav{
     p, a{
         font-size: 14px;
     }
-}
-
-@media screen and (max-width: 350px) {
-    h1{
-        font-size: 18px;
-    }
-
-    p, a{
-        font-size: 10px;
-    }
 
     li img{
         max-height: 30px;
     }
+}
+
+@media screen and (max-width: 390px) {
+   .nivel p{
+       font-size: 12px;
+   }
+
+    li img{
+        max-height: 25px;
+    }
 
 }
+
+@media screen and (max-width: 330px) {
+    .nivel p{
+        font-size: 10px;
+    }
+ 
+     li img{
+         max-height: 20px;
+     }
+ 
+ }
