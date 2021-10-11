@@ -16,6 +16,7 @@ h1{
 
 p{
     font-size: 24px;
+    text-indent: 40px;
 }
 
 nav{
@@ -27,6 +28,10 @@ nav{
     color: #111 ;
     font-size: 18px;
     font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #eee
 }
 
 .pergaminho{
@@ -66,6 +71,7 @@ nav{
 
 .html5{
     background: #E44F26;
+    max-height: 50px;
 }
 
 .css3{
@@ -88,6 +94,11 @@ nav{
     background: #563D7C;
 }
 
+@media screen and (max-width: 991px) {
+    ul.habilidades{
+        padding-left: 0;
+    }
+  }
 
 @media screen and (max-width: 576px) {
     h1{
@@ -96,9 +107,6 @@ nav{
 
     p, a{
         font-size: 18px;
-    }
-    ul>li>.habilidades{
-        padding-left: 0;
     }
   }
 
@@ -111,4 +119,19 @@ nav{
     p, a{
         font-size: 14px;
     }
+}
+
+@media screen and (max-width: 350px) {
+    h1{
+        font-size: 18px;
+    }
+
+    p, a{
+        font-size: 10px;
+    }
+
+    li img{
+        max-height: 30px;
+    }
+
 }

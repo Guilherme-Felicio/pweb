@@ -10,7 +10,7 @@ window.addEventListener('scroll', (e)=>{
 
 
     if(xl){
-        if(window.pageYOffset > 1030){
+        if(window.pageYOffset > 650){
             graficos[0].style.paddingRight = "60%";
             graficos[0].style.transition = "1.5s";
             graficos[1].style.paddingRight = "55%";
@@ -27,7 +27,7 @@ window.addEventListener('scroll', (e)=>{
     } 
 
     else if(lg){
-        if(window.pageYOffset > 1150){
+        if(window.pageYOffset > 670){
             graficos[0].style.paddingRight = "60%";
             graficos[0].style.transition = "1.5s";
             graficos[1].style.paddingRight = "55%";
@@ -45,7 +45,7 @@ window.addEventListener('scroll', (e)=>{
 
 
     else if(md){
-        if(window.pageYOffset > 1520){
+        if(window.pageYOffset > 800){
             graficos[0].style.paddingRight = "60%";
             graficos[0].style.transition = "1.5s";
             graficos[1].style.paddingRight = "55%";
@@ -62,8 +62,7 @@ window.addEventListener('scroll', (e)=>{
     } 
 
     else if(small){
-
-        if(window.pageYOffset > 1700){
+        if(window.pageYOffset > 930){
             graficos[0].style.paddingRight = "60%";
             graficos[0].style.transition = "1.5s";
             graficos[1].style.paddingRight = "55%";
@@ -77,5 +76,20 @@ window.addEventListener('scroll', (e)=>{
             graficos[5].style.paddingRight = "22%";
             graficos[5].style.transition = "2s";
         }
-    } 
+    } else{
+        if(window.pageYOffset > 930){
+            graficos[0].style.paddingRight = "60%";
+            graficos[0].style.transition = "1.5s";
+            graficos[1].style.paddingRight = "55%";
+            graficos[1].style.transition = "1.6s";
+            graficos[2].style.paddingRight = "47%";
+            graficos[2].style.transition = "1.7s";
+            graficos[3].style.paddingRight = "24%";
+            graficos[3].style.transition = "1.8s";
+            graficos[4].style.paddingRight = "22%";
+            graficos[4].style.transition = "1.9s";
+            graficos[5].style.paddingRight = "22%";
+            graficos[5].style.transition = "2s";
+        }
+    }
 });
